@@ -16,7 +16,7 @@ public class Battleship {
      */
     public static void main(String[] args) {
         // TODO code application logic
-        System.out.println("A LA VERGA");
+        System.out.println("A LA VERGA con tu mamá");
     }
     
 }
