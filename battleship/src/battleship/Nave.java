@@ -35,7 +35,7 @@ public class Nave {
     {
         this.vidas=0;
         this.tamaño=0;
-        System.gc();
+        System.gc(); //esto es el garbage collector
     }//creo que esta implementacion iria en la main class, o en una clase de acciones
     
     
