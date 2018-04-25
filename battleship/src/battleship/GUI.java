@@ -178,6 +178,11 @@ public class GUI extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setFocusTraversalPolicyProvider(true);
+        setLocationByPlatform(true);
+        setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panel135.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -192,6 +197,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 216, -1, -1));
+
         panel136.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel136Layout = new javax.swing.GroupLayout(panel136);
@@ -204,6 +211,8 @@ public class GUI extends javax.swing.JFrame {
             panel136Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 243, -1, -1));
 
         panel137.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -218,6 +227,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 54, -1, -1));
+
         panel138.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel138Layout = new javax.swing.GroupLayout(panel138);
@@ -230,6 +241,8 @@ public class GUI extends javax.swing.JFrame {
             panel138Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 81, -1, -1));
 
         panel139.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -244,6 +257,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 108, -1, -1));
+
         panel140.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel140Layout = new javax.swing.GroupLayout(panel140);
@@ -256,6 +271,8 @@ public class GUI extends javax.swing.JFrame {
             panel140Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 135, -1, -1));
 
         panel141.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -270,6 +287,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 162, -1, -1));
+
         panel142.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel142Layout = new javax.swing.GroupLayout(panel142);
@@ -282,6 +301,8 @@ public class GUI extends javax.swing.JFrame {
             panel142Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 189, -1, -1));
 
         panel143.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -296,6 +317,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 216, -1, -1));
+
         panel144.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel144Layout = new javax.swing.GroupLayout(panel144);
@@ -308,6 +331,8 @@ public class GUI extends javax.swing.JFrame {
             panel144Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 243, -1, -1));
 
         a1.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -322,6 +347,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a1, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 54, -1, -1));
+
         a2.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a2Layout = new javax.swing.GroupLayout(a2);
@@ -334,6 +361,8 @@ public class GUI extends javax.swing.JFrame {
             a2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a2, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 81, -1, -1));
 
         a3.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -348,6 +377,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a3, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 108, -1, -1));
+
         a4.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a4Layout = new javax.swing.GroupLayout(a4);
@@ -360,6 +391,8 @@ public class GUI extends javax.swing.JFrame {
             a4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a4, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 135, -1, -1));
 
         a5.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -374,6 +407,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a5, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 162, -1, -1));
+
         a6.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a6Layout = new javax.swing.GroupLayout(a6);
@@ -386,6 +421,8 @@ public class GUI extends javax.swing.JFrame {
             a6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a6, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 189, -1, -1));
 
         a7.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -400,6 +437,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a7, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 216, -1, -1));
+
         a8.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a8Layout = new javax.swing.GroupLayout(a8);
@@ -412,6 +451,8 @@ public class GUI extends javax.swing.JFrame {
             a8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a8, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 243, -1, -1));
 
         panel153.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -426,6 +467,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel153, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 135, -1, -1));
+
         panel154.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel154Layout = new javax.swing.GroupLayout(panel154);
@@ -438,6 +481,8 @@ public class GUI extends javax.swing.JFrame {
             panel154Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 162, -1, -1));
 
         panel155.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -452,6 +497,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 189, -1, -1));
+
         panel156.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel156Layout = new javax.swing.GroupLayout(panel156);
@@ -464,6 +511,8 @@ public class GUI extends javax.swing.JFrame {
             panel156Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 216, -1, -1));
 
         panel157.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -478,6 +527,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 243, -1, -1));
+
         b1.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout b1Layout = new javax.swing.GroupLayout(b1);
@@ -490,6 +541,8 @@ public class GUI extends javax.swing.JFrame {
             b1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(b1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 54, -1, -1));
 
         panel159.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -504,6 +557,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 81, -1, -1));
+
         panel160.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel160Layout = new javax.swing.GroupLayout(panel160);
@@ -516,6 +571,8 @@ public class GUI extends javax.swing.JFrame {
             panel160Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 108, -1, -1));
 
         panel161.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -530,6 +587,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel161, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 135, -1, -1));
+
         panel162.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel162Layout = new javax.swing.GroupLayout(panel162);
@@ -542,6 +601,8 @@ public class GUI extends javax.swing.JFrame {
             panel162Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel162, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 162, -1, -1));
 
         panel163.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -556,6 +617,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel163, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 189, -1, -1));
+
         panel164.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel164Layout = new javax.swing.GroupLayout(panel164);
@@ -568,6 +631,8 @@ public class GUI extends javax.swing.JFrame {
             panel164Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel164, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 216, -1, -1));
 
         panel165.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -582,6 +647,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel165, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 243, -1, -1));
+
         panel166.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel166Layout = new javax.swing.GroupLayout(panel166);
@@ -594,6 +661,8 @@ public class GUI extends javax.swing.JFrame {
             panel166Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel166, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 54, -1, -1));
 
         panel167.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -608,6 +677,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel167, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 54, -1, -1));
+
         panel168.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel168Layout = new javax.swing.GroupLayout(panel168);
@@ -620,6 +691,8 @@ public class GUI extends javax.swing.JFrame {
             panel168Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel168, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 81, -1, -1));
 
         panel169.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -634,6 +707,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel169, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 81, -1, -1));
+
         panel170.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel170Layout = new javax.swing.GroupLayout(panel170);
@@ -646,6 +721,8 @@ public class GUI extends javax.swing.JFrame {
             panel170Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 108, -1, -1));
 
         panel171.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -660,6 +737,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 135, -1, -1));
+
         panel172.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel172Layout = new javax.swing.GroupLayout(panel172);
@@ -672,6 +751,8 @@ public class GUI extends javax.swing.JFrame {
             panel172Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel172, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 162, -1, -1));
 
         panel173.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -686,6 +767,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 189, -1, -1));
+
         panel174.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel174Layout = new javax.swing.GroupLayout(panel174);
@@ -698,6 +781,8 @@ public class GUI extends javax.swing.JFrame {
             panel174Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 216, -1, -1));
 
         panel175.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -712,6 +797,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 243, -1, -1));
+
         panel176.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel176Layout = new javax.swing.GroupLayout(panel176);
@@ -724,6 +811,8 @@ public class GUI extends javax.swing.JFrame {
             panel176Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 54, -1, -1));
 
         panel177.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -738,6 +827,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel177, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 81, -1, -1));
+
         panel178.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel178Layout = new javax.swing.GroupLayout(panel178);
@@ -750,6 +841,8 @@ public class GUI extends javax.swing.JFrame {
             panel178Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel178, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 108, -1, -1));
 
         panel179.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -764,6 +857,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 135, -1, -1));
+
         panel180.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel180Layout = new javax.swing.GroupLayout(panel180);
@@ -776,6 +871,8 @@ public class GUI extends javax.swing.JFrame {
             panel180Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel180, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 162, -1, -1));
 
         panel181.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -790,6 +887,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel181, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 189, -1, -1));
+
         panel182.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel182Layout = new javax.swing.GroupLayout(panel182);
@@ -802,6 +901,8 @@ public class GUI extends javax.swing.JFrame {
             panel182Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel182, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 216, -1, -1));
 
         panel183.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -816,6 +917,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel183, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 243, -1, -1));
+
         panel184.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel184Layout = new javax.swing.GroupLayout(panel184);
@@ -828,6 +931,8 @@ public class GUI extends javax.swing.JFrame {
             panel184Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel184, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 54, -1, -1));
 
         panel185.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -842,6 +947,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 81, -1, -1));
+
         panel186.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel186Layout = new javax.swing.GroupLayout(panel186);
@@ -854,6 +961,8 @@ public class GUI extends javax.swing.JFrame {
             panel186Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel186, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 108, -1, -1));
 
         panel187.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -868,7 +977,10 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel187, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 108, -1, -1));
+
         label10.setText("A       B      C      D      E      F      G      H ");
+        getContentPane().add(label10, new org.netbeans.lib.awtextra.AbsoluteConstraints(33, 32, 214, -1));
 
         panel188.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -883,23 +995,31 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel188, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 135, -1, -1));
+
         label11.setName(""); // NOI18N
         label11.setText("2");
+        getContentPane().add(label11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 86, -1, -1));
 
         label12.setName(""); // NOI18N
         label12.setText("1");
+        getContentPane().add(label12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 59, -1, -1));
 
         label13.setName(""); // NOI18N
         label13.setText("3");
+        getContentPane().add(label13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 116, -1, 12));
 
         label14.setName(""); // NOI18N
         label14.setText("4");
+        getContentPane().add(label14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
 
         label15.setName(""); // NOI18N
         label15.setText("5");
+        getContentPane().add(label15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, 12));
 
         label16.setName(""); // NOI18N
         label16.setText("6");
+        getContentPane().add(label16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 194, -1, -1));
 
         panel189.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -914,6 +1034,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel189, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 162, -1, -1));
+
         panel190.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel190Layout = new javax.swing.GroupLayout(panel190);
@@ -926,6 +1048,8 @@ public class GUI extends javax.swing.JFrame {
             panel190Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel190, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 189, -1, -1));
 
         panel191.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -940,6 +1064,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel191, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 216, -1, -1));
+
         panel192.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel192Layout = new javax.swing.GroupLayout(panel192);
@@ -952,6 +1078,8 @@ public class GUI extends javax.swing.JFrame {
             panel192Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel192, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 243, -1, -1));
 
         panel193.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -966,6 +1094,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel193, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 54, -1, -1));
+
         panel194.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel194Layout = new javax.swing.GroupLayout(panel194);
@@ -978,6 +1108,8 @@ public class GUI extends javax.swing.JFrame {
             panel194Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel194, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 81, -1, -1));
 
         panel195.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -992,6 +1124,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel195, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 108, -1, -1));
+
         panel196.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel196Layout = new javax.swing.GroupLayout(panel196);
@@ -1005,8 +1139,11 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel196, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 135, -1, -1));
+
         label17.setName(""); // NOI18N
         label17.setText("7");
+        getContentPane().add(label17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 221, -1, -1));
 
         panel197.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1021,6 +1158,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel197, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 162, -1, -1));
+
         panel198.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel198Layout = new javax.swing.GroupLayout(panel198);
@@ -1034,8 +1173,11 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel198, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 189, -1, -1));
+
         label18.setName(""); // NOI18N
         label18.setText("8");
+        getContentPane().add(label18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 243, -1, -1));
 
         panel145.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1050,6 +1192,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 189, -1, -1));
+
         panel146.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel146Layout = new javax.swing.GroupLayout(panel146);
@@ -1062,6 +1206,8 @@ public class GUI extends javax.swing.JFrame {
             panel146Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 216, -1, -1));
 
         panel147.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1076,6 +1222,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 243, -1, -1));
+
         a9.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a9Layout = new javax.swing.GroupLayout(a9);
@@ -1088,6 +1236,8 @@ public class GUI extends javax.swing.JFrame {
             a9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a9, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 54, -1, -1));
 
         a10.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1102,6 +1252,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a10, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 81, -1, -1));
+
         a11.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a11Layout = new javax.swing.GroupLayout(a11);
@@ -1114,6 +1266,8 @@ public class GUI extends javax.swing.JFrame {
             a11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a11, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 108, -1, -1));
 
         a12.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1128,6 +1282,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a12, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 135, -1, -1));
+
         a13.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a13Layout = new javax.swing.GroupLayout(a13);
@@ -1140,6 +1296,8 @@ public class GUI extends javax.swing.JFrame {
             a13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a13, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 162, -1, -1));
 
         a14.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1154,6 +1312,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a14, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 189, -1, -1));
+
         a15.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout a15Layout = new javax.swing.GroupLayout(a15);
@@ -1166,6 +1326,8 @@ public class GUI extends javax.swing.JFrame {
             a15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(a15, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 216, -1, -1));
 
         a16.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1180,6 +1342,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(a16, new org.netbeans.lib.awtextra.AbsoluteConstraints(393, 243, -1, -1));
+
         panel158.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel158Layout = new javax.swing.GroupLayout(panel158);
@@ -1192,6 +1356,8 @@ public class GUI extends javax.swing.JFrame {
             panel158Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 135, -1, -1));
 
         panel199.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1206,6 +1372,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel199, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 162, -1, -1));
+
         panel200.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel200Layout = new javax.swing.GroupLayout(panel200);
@@ -1218,6 +1386,8 @@ public class GUI extends javax.swing.JFrame {
             panel200Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel200, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 189, -1, -1));
 
         panel201.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1232,6 +1402,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel201, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 216, -1, -1));
+
         panel202.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel202Layout = new javax.swing.GroupLayout(panel202);
@@ -1244,6 +1416,8 @@ public class GUI extends javax.swing.JFrame {
             panel202Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel202, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 243, -1, -1));
 
         b2.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1258,6 +1432,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(b2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 54, -1, -1));
+
         panel203.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel203Layout = new javax.swing.GroupLayout(panel203);
@@ -1270,6 +1446,8 @@ public class GUI extends javax.swing.JFrame {
             panel203Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel203, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 81, -1, -1));
 
         panel204.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1284,6 +1462,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel204, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 108, -1, -1));
+
         panel205.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel205Layout = new javax.swing.GroupLayout(panel205);
@@ -1296,6 +1476,8 @@ public class GUI extends javax.swing.JFrame {
             panel205Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel205, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 135, -1, -1));
 
         panel206.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1310,6 +1492,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel206, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 162, -1, -1));
+
         panel207.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel207Layout = new javax.swing.GroupLayout(panel207);
@@ -1322,6 +1506,8 @@ public class GUI extends javax.swing.JFrame {
             panel207Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel207, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 189, -1, -1));
 
         panel208.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1336,6 +1522,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel208, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 216, -1, -1));
+
         panel209.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel209Layout = new javax.swing.GroupLayout(panel209);
@@ -1348,6 +1536,8 @@ public class GUI extends javax.swing.JFrame {
             panel209Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel209, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 243, -1, -1));
 
         panel210.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1362,6 +1552,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel210, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 54, -1, -1));
+
         panel211.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel211Layout = new javax.swing.GroupLayout(panel211);
@@ -1374,6 +1566,8 @@ public class GUI extends javax.swing.JFrame {
             panel211Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel211, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 54, -1, -1));
 
         panel212.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1388,6 +1582,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel212, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 81, -1, -1));
+
         panel213.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel213Layout = new javax.swing.GroupLayout(panel213);
@@ -1400,6 +1596,8 @@ public class GUI extends javax.swing.JFrame {
             panel213Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel213, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 81, -1, -1));
 
         panel214.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1414,6 +1612,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel214, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 108, -1, -1));
+
         panel215.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel215Layout = new javax.swing.GroupLayout(panel215);
@@ -1426,6 +1626,8 @@ public class GUI extends javax.swing.JFrame {
             panel215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel215, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 135, -1, -1));
 
         panel216.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1440,6 +1642,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel216, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 162, -1, -1));
+
         panel217.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel217Layout = new javax.swing.GroupLayout(panel217);
@@ -1452,6 +1656,8 @@ public class GUI extends javax.swing.JFrame {
             panel217Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel217, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 189, -1, -1));
 
         panel218.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1466,6 +1672,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel218, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 216, -1, -1));
+
         panel219.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel219Layout = new javax.swing.GroupLayout(panel219);
@@ -1478,6 +1686,8 @@ public class GUI extends javax.swing.JFrame {
             panel219Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel219, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 243, -1, -1));
 
         panel220.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1492,6 +1702,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel220, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 54, -1, -1));
+
         panel221.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel221Layout = new javax.swing.GroupLayout(panel221);
@@ -1504,6 +1716,8 @@ public class GUI extends javax.swing.JFrame {
             panel221Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel221, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 81, -1, -1));
 
         panel222.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1518,6 +1732,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel222, new org.netbeans.lib.awtextra.AbsoluteConstraints(447, 108, -1, -1));
+
         panel223.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel223Layout = new javax.swing.GroupLayout(panel223);
@@ -1530,6 +1746,8 @@ public class GUI extends javax.swing.JFrame {
             panel223Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel223, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 135, -1, -1));
 
         panel224.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1544,6 +1762,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel224, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 162, -1, -1));
+
         panel225.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel225Layout = new javax.swing.GroupLayout(panel225);
@@ -1556,6 +1776,8 @@ public class GUI extends javax.swing.JFrame {
             panel225Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel225, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 189, -1, -1));
 
         panel226.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1570,6 +1792,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel226, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 216, -1, -1));
+
         panel227.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel227Layout = new javax.swing.GroupLayout(panel227);
@@ -1582,6 +1806,8 @@ public class GUI extends javax.swing.JFrame {
             panel227Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel227, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 243, -1, -1));
 
         panel228.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1596,6 +1822,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel228, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 54, -1, -1));
+
         panel229.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel229Layout = new javax.swing.GroupLayout(panel229);
@@ -1608,6 +1836,8 @@ public class GUI extends javax.swing.JFrame {
             panel229Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel229, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 81, -1, -1));
 
         panel230.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1622,6 +1852,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel230, new org.netbeans.lib.awtextra.AbsoluteConstraints(582, 108, -1, -1));
+
         panel231.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel231Layout = new javax.swing.GroupLayout(panel231);
@@ -1635,7 +1867,10 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel231, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 108, -1, -1));
+
         label19.setText("A       B      C      D      E      F      G      H ");
+        getContentPane().add(label19, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 32, 214, -1));
 
         panel232.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1650,23 +1885,31 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel232, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 135, -1, -1));
+
         label20.setName(""); // NOI18N
         label20.setText("2");
+        getContentPane().add(label20, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 86, -1, -1));
 
         label21.setName(""); // NOI18N
         label21.setText("1");
+        getContentPane().add(label21, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 59, -1, -1));
 
         label22.setName(""); // NOI18N
         label22.setText("3");
+        getContentPane().add(label22, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 116, -1, 12));
 
         label23.setName(""); // NOI18N
         label23.setText("4");
+        getContentPane().add(label23, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, -1, -1));
 
         label24.setName(""); // NOI18N
         label24.setText("5");
+        getContentPane().add(label24, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, -1, 12));
 
         label25.setName(""); // NOI18N
         label25.setText("6");
+        getContentPane().add(label25, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 194, -1, -1));
 
         panel233.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1681,6 +1924,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel233, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 162, -1, -1));
+
         panel234.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel234Layout = new javax.swing.GroupLayout(panel234);
@@ -1693,6 +1938,8 @@ public class GUI extends javax.swing.JFrame {
             panel234Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel234, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 189, -1, -1));
 
         panel235.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1707,6 +1954,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel235, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 216, -1, -1));
+
         panel236.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel236Layout = new javax.swing.GroupLayout(panel236);
@@ -1719,6 +1968,8 @@ public class GUI extends javax.swing.JFrame {
             panel236Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel236, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 243, -1, -1));
 
         panel237.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1733,6 +1984,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel237, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 54, -1, -1));
+
         panel238.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel238Layout = new javax.swing.GroupLayout(panel238);
@@ -1745,6 +1998,8 @@ public class GUI extends javax.swing.JFrame {
             panel238Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel238, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 81, -1, -1));
 
         panel239.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1759,6 +2014,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel239, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 108, -1, -1));
+
         panel240.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel240Layout = new javax.swing.GroupLayout(panel240);
@@ -1772,8 +2029,11 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel240, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 135, -1, -1));
+
         label26.setName(""); // NOI18N
         label26.setText("7");
+        getContentPane().add(label26, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 221, -1, -1));
 
         panel241.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1788,6 +2048,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel241, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 162, -1, -1));
+
         panel242.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel242Layout = new javax.swing.GroupLayout(panel242);
@@ -1801,8 +2063,11 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel242, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 189, -1, -1));
+
         label27.setName(""); // NOI18N
         label27.setText("8");
+        getContentPane().add(label27, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 243, -1, -1));
 
         panel148.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1817,6 +2082,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 216, -1, -1));
+
         panel149.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel149Layout = new javax.swing.GroupLayout(panel149);
@@ -1829,6 +2096,8 @@ public class GUI extends javax.swing.JFrame {
             panel149Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 243, -1, -1));
 
         panel150.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1843,6 +2112,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 54, -1, -1));
+
         panel151.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel151Layout = new javax.swing.GroupLayout(panel151);
@@ -1855,6 +2126,8 @@ public class GUI extends javax.swing.JFrame {
             panel151Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 81, -1, -1));
 
         panel152.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1869,6 +2142,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel152, new org.netbeans.lib.awtextra.AbsoluteConstraints(528, 108, -1, -1));
+
         panel243.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout panel243Layout = new javax.swing.GroupLayout(panel243);
@@ -1881,6 +2156,8 @@ public class GUI extends javax.swing.JFrame {
             panel243Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 25, Short.MAX_VALUE)
         );
+
+        getContentPane().add(panel243, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 135, -1, -1));
 
         panel244.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1895,6 +2172,8 @@ public class GUI extends javax.swing.JFrame {
             .addGap(0, 25, Short.MAX_VALUE)
         );
 
+        getContentPane().add(panel244, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 162, -1, -1));
+
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
 
@@ -1903,532 +2182,8 @@ public class GUI extends javax.swing.JFrame {
 
         setJMenuBar(jMenuBar1);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(label12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(2, 2, 2)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(a1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel157, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel156, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel155, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel154, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel153, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel160, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel159, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel165, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel164, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel163, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel162, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel161, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel178, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel169, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel167, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel183, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel182, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel181, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel180, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel179, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel187, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel185, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel184, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel192, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel191, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel190, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel189, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel188, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel195, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel194, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel193, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel136, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel135, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel198, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel197, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel196, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel139, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel138, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel137, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel144, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel143, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel142, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel141, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel140, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel170, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel168, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel166, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel175, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel174, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel173, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel172, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel171, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel186, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel177, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel176, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(110, 110, 110)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(label21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(2, 2, 2)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel202, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel201, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel200, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel199, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel158, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel204, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel203, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(b2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel209, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel208, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel207, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel206, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel205, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel222, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel213, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel211, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel227, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel226, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel225, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel224, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel223, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel231, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel229, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel228, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel236, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel235, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel234, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel233, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel232, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel239, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel238, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel237, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel149, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel148, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel242, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel241, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel240, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel152, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel151, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel150, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel147, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel146, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel145, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel244, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel243, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel214, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel212, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel210, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(panel219, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel218, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel217, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel216, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel215, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel230, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel221, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(panel220, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(label19, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(283, 283, 283))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(label19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(panel220, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel221, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel230, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel215, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel216, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel217, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel218, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel219, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(panel210, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel212, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel214, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel243, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel244, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel145, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel146, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel147, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(panel150, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel151, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel152, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel240, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel241, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel242, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel148, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel149, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel237, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel238, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel239, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel232, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel233, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel234, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel235, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel236, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel228, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel229, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel231, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel223, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel224, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel225, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel226, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel227, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel211, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel213, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel222, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel205, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel206, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel207, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel208, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel209, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(b2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel203, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel204, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel158, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel199, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel200, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel201, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel202, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                            .addComponent(label21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(label20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(label22, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addGap(7, 7, 7)
-                                                .addComponent(label23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(label24, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(label25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(label26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(label27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(panel176, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel177, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel186, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel171, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel172, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel173, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel174, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel175, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(panel166, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel168, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel170, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel140, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel141, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel142, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel143, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2)
-                                .addComponent(panel144, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(panel137, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel138, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel139, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel196, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel197, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel198, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel135, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(2, 2, 2)
-                                    .addComponent(panel136, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel193, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel194, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel195, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel188, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel189, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel190, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel191, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel192, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel184, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel185, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel187, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel179, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel180, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel181, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel182, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel183, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(panel167, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel169, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel178, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel161, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel162, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel163, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel164, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel165, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(b1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel159, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel160, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel153, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel154, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel155, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel156, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(2, 2, 2)
-                                        .addComponent(panel157, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                            .addComponent(label12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(label11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(label13, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addGap(7, 7, 7)
-                                                .addComponent(label14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(2, 2, 2)
-                                                .addComponent(a5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(label15, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(label16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(a6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(a7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(label17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(2, 2, 2)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(label18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
-                .addContainerGap(38, Short.MAX_VALUE))
-        );
-
-        pack();
+        setSize(new java.awt.Dimension(899, 399));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
