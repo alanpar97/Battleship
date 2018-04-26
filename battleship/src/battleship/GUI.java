@@ -21,6 +21,79 @@ public class GUI extends javax.swing.JFrame {
      */
     public GUI() {
         initComponents();
+        java.awt.Panel[][] paneles;
+        paneles= new java.awt.Panel [8][8];
+        paneles[0][0]=A1;
+        paneles[0][1]=A2;
+        paneles[0][2]=A3;
+        paneles[0][3]=A4;
+        paneles[0][4]=A5;
+        paneles[0][5]=A6;
+        paneles[0][6]=A7;
+        paneles[0][7]=A8;
+       
+        paneles[1][0]=B1;
+        paneles[1][1]=B2;
+        paneles[1][2]=B3;
+        paneles[1][3]=B4;
+        paneles[1][4]=B5;
+        paneles[1][5]=B6;
+        paneles[1][6]=B7;
+        paneles[1][7]=B8;
+            
+        paneles[2][0]=C1;
+        paneles[2][1]=C2;
+        paneles[2][2]=C3;
+        paneles[2][3]=C4;
+        paneles[2][4]=C5;
+        paneles[2][5]=C6;
+        paneles[2][6]=C7;
+        paneles[2][7]=C8;
+       
+        paneles[3][0]=D1;
+        paneles[3][1]=D2;
+        paneles[3][2]=D3;
+        paneles[3][3]=D4;
+        paneles[3][4]=D5;
+        paneles[3][5]=D6;
+        paneles[3][6]=D7;
+        paneles[3][7]=D8;
+       
+        paneles[4][0]=E1;
+        paneles[4][1]=E2;
+        paneles[4][2]=E3;
+        paneles[4][3]=E4;
+        paneles[4][4]=E5;
+        paneles[4][5]=E6;
+        paneles[4][6]=E7;
+        paneles[4][7]=E8;
+        
+        paneles[5][0]=F1;
+        paneles[5][1]=F2;
+        paneles[5][2]=F3;
+        paneles[5][3]=F4;
+        paneles[5][4]=F5;
+        paneles[5][5]=F6;
+        paneles[5][6]=F7;
+        paneles[5][7]=F8;
+        
+        paneles[6][0]=G1;
+        paneles[6][1]=G2;
+        paneles[6][2]=G3;
+        paneles[6][3]=G4;
+        paneles[6][4]=G5;
+        paneles[6][5]=G6;
+        paneles[6][6]=G7;
+        paneles[6][7]=G8;
+        
+        paneles[7][0]=H1;
+        paneles[7][1]=H2;
+        paneles[7][2]=H3;
+        paneles[7][3]=H4;
+        paneles[7][4]=H5;
+        paneles[7][5]=H6;
+        paneles[7][6]=H7;
+        paneles[7][7]=H8;
     }
 
     /**
@@ -2202,6 +2275,7 @@ public class GUI extends javax.swing.JFrame {
    
     }//GEN-LAST:event_a1MouseClicked
 
+    
     /**
      * @param args the command line arguments
      */
@@ -2228,7 +2302,7 @@ public class GUI extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -2236,7 +2310,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
     }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private java.awt.Panel A1;
     private java.awt.Panel A2;
