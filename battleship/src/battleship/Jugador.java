@@ -15,6 +15,7 @@ public class Jugador {
     public NaveCompleja nave2;
     public NaveCompleja nave3;
     public NaveCompleja nave4;
+    public Tablero tablero;
     
     Jugador ()
     {
@@ -22,6 +23,7 @@ public class Jugador {
         nave2= new NaveCompleja ();
         nave3= new NaveCompleja ();
         nave4= new NaveCompleja();
+        tablero= new Tablero();
     }
     
     

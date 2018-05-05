@@ -11,7 +11,7 @@ package battleship;
  */
 public class Tablero {
     
-    private int[][] lugares;
+    public int[][] lugares;
     
     public Tablero(int[][] lugares){
         this.lugares = lugares;
@@ -22,7 +22,6 @@ public class Tablero {
         for (int i = 0;i <8; i++){
             for (int j=0;j<8; j++)
                 this.lugares[i][j] = 0;
-            System.out.println("Me cagas");
         }
     }
     

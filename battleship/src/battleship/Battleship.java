@@ -16,9 +16,12 @@ public class Battleship {
     /**
      * @param args the command line arguments
      */
+    
+    public static Jugador player;
     public static void main(String[] args) {
-        // TODO code application logic
-        System.out.println("A LA VERGA");
+        // TODO code application logic     
+     
+                
     }
     
 }

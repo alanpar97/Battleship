@@ -76,6 +76,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Submarino (2)"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submarinoActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="antiaereo">
       <Properties>
@@ -91,6 +94,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Barco (1)"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="barcoActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

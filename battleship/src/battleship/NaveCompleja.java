@@ -11,7 +11,7 @@ package battleship;
  */
 public class NaveCompleja extends NaveUnitaria {
         
-        private Character orientacion;
+        public Character orientacion;
         //este nuevo atributo solo lo tendran naves que sean de tamaño mayor a 1
         //servira para saber si el tamaño de desplegara horizontal o vertical
         //se indicara H=horizontal, V=vertical
@@ -30,6 +30,11 @@ public class NaveCompleja extends NaveUnitaria {
             setTamaño(tamaño);
             setVidas(vidas);
             setUbicacion(ubicacion);
+        }
+        
+        public void setOrientacion(Character orientacion)
+        {
+            this.orientacion= orientacion;
         }
     
 }

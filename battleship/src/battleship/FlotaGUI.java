@@ -5,22 +5,31 @@
  */
 package battleship;
 
+import java.awt.Color;
 import java.awt.Component;
+import java.awt.Panel;
 
 /**
  *
  * @author Luis Oliva
  */
-public class AjusteFlota extends javax.swing.JFrame {
-
+public class FlotaGUI extends javax.swing.JFrame {    
     /**
      * Creates new form AjusteFlota
      */
-    public AjusteFlota() {
+    
+    
+    public FlotaGUI() {
         initComponents();
         setLocationRelativeTo(null);
+       
     }
-
+    OrientacionFrame orientacion= new OrientacionFrame ();
+    Character flag= new Character('.');
+    Jugador p1;
+    Punto xy;
+    Panel panelTemp[][]=new Panel[8][8];
+    int x, y;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -46,12 +55,22 @@ public class AjusteFlota extends javax.swing.JFrame {
         jLabel1.setText("FLOTA NAVAL DISPONIBLE");
 
         submarino.setText("Submarino (2)");
+        submarino.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submarinoActionPerformed(evt);
+            }
+        });
 
         antiaereo.setText("Anti-aéreo (3)");
 
         base.setText("Base aérea (4)");
 
         barco.setText("Barco (1)");
+        barco.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                barcoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -87,7 +106,40 @@ public class AjusteFlota extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
- 
+
+    private void barcoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barcoActionPerformed
+        // TODO add your handling code here:
+        barco.setEnabled(false);
+        this.setVisible(false);
+        p1.nave1.setUbicacion(xy);
+        panelTemp[this.x][this.y].setBackground(Color.black);
+    }//GEN-LAST:event_barcoActionPerformed
+
+    private void submarinoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submarinoActionPerformed
+        // TODO add your handling code here
+        this.setVisible(false);
+        this.submarino.setEnabled(false);
+        orientacion.setVisible(true);
+        flag='S';
+        if (p1.nave2.orientacion=='V')
+        {
+            for (int i=0;i<2;i++){
+            panelTemp[this.x][this.y+i].setBackground(Color.black);}
+        }
+        
+        
+    }//GEN-LAST:event_submarinoActionPerformed
+
+    public void jugadorData(Jugador p1, Punto xy, Panel[][] panel, int x, int y)
+    {
+        this.p1=p1;
+        this.xy=xy;
+        this.panelTemp=panel;
+        this.x=x;
+        this.y=y;
+       
+    }
+    
     
     /**
      * @param args the command line arguments
@@ -106,20 +158,20 @@ public class AjusteFlota extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(AjusteFlota.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FlotaGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(AjusteFlota.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FlotaGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(AjusteFlota.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FlotaGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(AjusteFlota.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FlotaGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new AjusteFlota().setVisible(true);
+                new FlotaGUI().setVisible(true);
             }
         });
     }
