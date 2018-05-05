@@ -2552,8 +2552,8 @@ public class GUI extends javax.swing.JFrame {
     private void A1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A1MouseClicked
         // TODO add your handling code here:
        Punto coordenadas;
-       coordenadas= new Punto(1, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0, 0);
+       coordenadas= new Punto(0, 0);
+       flota.jugadorData(player, paneles, coordenadas);
        flota.setVisible(true);     
        
     }//GEN-LAST:event_A1MouseClicked
@@ -2561,64 +2561,64 @@ public class GUI extends javax.swing.JFrame {
     private void B1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B1MouseClicked
         // TODO add your handling code here:
        Punto coordenadas;
-       coordenadas= new Punto(1, 'B');
-       flota.jugadorData(player, coordenadas, paneles, 1,0);
+       coordenadas= new Punto(1,0);
+       flota.jugadorData(player, paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_B1MouseClicked
 
     private void A2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A2MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(2, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,1);
+       coordenadas= new Punto(0,1);
+       flota.jugadorData(player, paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A2MouseClicked
 
     private void A3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A3MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(3, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,2);
+       coordenadas= new Punto(0,2);
+       flota.jugadorData(player, paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A3MouseClicked
 
     private void A4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A4MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(4, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,3);
+       coordenadas= new Punto(0,3);
+       flota.jugadorData(player, paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A4MouseClicked
 
     private void A5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A5MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(5, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,4);
+       coordenadas= new Punto(0,4);
+       flota.jugadorData(player, paneles, coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A5MouseClicked
 
     private void A6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A6MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(6, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0, 5);
+       coordenadas= new Punto(0,5);
+       flota.jugadorData(player,paneles, coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A6MouseClicked
 
     private void A7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A7MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(7, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,6);
+       coordenadas= new Punto(0,6);
+       flota.jugadorData(player,paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A7MouseClicked
 
     private void A8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A8MouseClicked
         // TODO add your handling code here:
          Punto coordenadas;
-       coordenadas= new Punto(8, 'A');
-       flota.jugadorData(player, coordenadas, paneles, 0,7);
+       coordenadas= new Punto(0,7);
+       flota.jugadorData(player,paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A8MouseClicked
 

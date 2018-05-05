@@ -27,9 +27,8 @@ public class FlotaGUI extends javax.swing.JFrame {
     OrientacionFrame orientacion= new OrientacionFrame ();
     Character flag= new Character('.');
     Jugador p1;
-    Punto xy;
     Panel panelTemp[][]=new Panel[8][8];
-    int x, y;
+    Punto coordenadas;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -111,8 +110,8 @@ public class FlotaGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         barco.setEnabled(false);
         this.setVisible(false);
-        p1.nave1.setUbicacion(xy);
-        panelTemp[this.x][this.y].setBackground(Color.black);
+        p1.nave1.setUbicacion(coordenadas);
+        panelTemp[this.coordenadas.columna][this.coordenadas.fila].setBackground(Color.black);
     }//GEN-LAST:event_barcoActionPerformed
 
     private void submarinoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submarinoActionPerformed
@@ -124,19 +123,18 @@ public class FlotaGUI extends javax.swing.JFrame {
         if (p1.nave2.orientacion=='V')
         {
             for (int i=0;i<2;i++){
-            panelTemp[this.x][this.y+i].setBackground(Color.black);}
+           // panelTemp[this.x][this.y].setBackground(Color.black);}
+            }
         }
         
         
     }//GEN-LAST:event_submarinoActionPerformed
 
-    public void jugadorData(Jugador p1, Punto xy, Panel[][] panel, int x, int y)
+    public void jugadorData(Jugador p1, Panel[][] panel, Punto coordenadas)
     {
         this.p1=p1;
-        this.xy=xy;
         this.panelTemp=panel;
-        this.x=x;
-        this.y=y;
+        this.coordenadas=coordenadas;
        
     }
     

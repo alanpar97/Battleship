@@ -11,17 +11,17 @@ package battleship;
  */
 public class Punto {
     public int fila;
-    public Character columna;
+    public int columna;
     
     
     //clase para poder dar coordenadas de ubicacion y que sea atributo de la nave
     Punto ()
     {
         this.fila=0; //son simples numeros del 1-8
-        this.columna=null; //en el juego las columnas son A-H
+        this.columna=0; //en el juego las columnas son A-H
     }
     
-    Punto (int fila, Character columna)
+    Punto (int columna, int fila)
     {
         this.fila=fila;
         this.columna=columna;
