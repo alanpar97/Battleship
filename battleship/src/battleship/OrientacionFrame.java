@@ -96,10 +96,28 @@ public class OrientacionFrame extends javax.swing.JFrame {
         if (flag.equals('A'))
         {
             p1.nave3.setOrientacion('V');
+            p1.nave3.setTamaño(3);
+            if (p1.nave3.orientacion.equals('V'))
+            {               
+                for (int i=0;i<p1.nave3.getTamaño();i++)
+                {
+                    panelTemp[p1.nave3.ubicacion.columna][p1.nave3.ubicacion.fila+i].setBackground(Color.black);
+                }
+
+            }
         }
         if (flag.equals('B'))
         {
             p1.nave4.setOrientacion('V');
+            p1.nave4.setTamaño(4);
+            if (p1.nave4.orientacion.equals('V'))
+            {               
+                for (int i=0;i<p1.nave4.getTamaño();i++)
+                {
+                    panelTemp[p1.nave4.ubicacion.columna][p1.nave4.ubicacion.fila+i].setBackground(Color.black);
+                }
+
+            }
         }
         
         this.setVisible(false);
@@ -110,24 +128,39 @@ public class OrientacionFrame extends javax.swing.JFrame {
         
         if (flag.equals('S'))
         {
-            p1.nave2.setOrientacion('V');
-            if (p1.nave2.orientacion.equals('V'))
+            p1.nave2.setOrientacion('H');
+            if (p1.nave2.orientacion.equals('H'))
             {
-                for (int i=p1.nave2.ubicacion.fila;i<p1.nave2.getTamaño();i++)
+                for (int i=0;i<p1.nave2.getTamaño();i++)
                 {
                     panelTemp[p1.nave2.ubicacion.columna+i][p1.nave2.ubicacion.fila].setBackground(Color.black);
                 }
-
             }
         }
         
         if (flag.equals('A'))
         {
-            p1.nave3.setOrientacion('V');
+            p1.nave3.setOrientacion('H');
+            p1.nave3.setTamaño(3);
+            if (p1.nave3.orientacion.equals('H'))
+            {
+                for (int i=0;i<p1.nave3.getTamaño();i++)
+                {
+                    panelTemp[p1.nave3.ubicacion.columna+i][p1.nave3.ubicacion.fila].setBackground(Color.black);
+                }
+            }
         }
         if (flag.equals('B'))
         {
-            p1.nave4.setOrientacion('V');
+            p1.nave4.setOrientacion('H');
+            p1.nave4.setTamaño(4);
+            if (p1.nave4.orientacion.equals('H'))
+            {
+                for (int i=0;i<p1.nave4.getTamaño();i++)
+                {
+                    panelTemp[p1.nave4.ubicacion.columna+i][p1.nave4.ubicacion.fila].setBackground(Color.black);
+                }
+            }
         }
         
         this.setVisible(false);

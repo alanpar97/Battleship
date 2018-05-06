@@ -1134,6 +1134,11 @@ public class GUI extends javax.swing.JFrame {
         label18.setText("8");
 
         G6.setBackground(new java.awt.Color(0, 102, 102));
+        G6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G6Layout = new javax.swing.GroupLayout(G6);
         G6.setLayout(G6Layout);
@@ -1147,6 +1152,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G7.setBackground(new java.awt.Color(0, 102, 102));
+        G7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G7Layout = new javax.swing.GroupLayout(G7);
         G7.setLayout(G7Layout);
@@ -1160,6 +1170,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G8.setBackground(new java.awt.Color(0, 102, 102));
+        G8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G8Layout = new javax.swing.GroupLayout(G8);
         G8.setLayout(G8Layout);
@@ -1317,6 +1332,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B4.setBackground(new java.awt.Color(0, 102, 102));
+        B4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B4Layout = new javax.swing.GroupLayout(B4);
         B4.setLayout(B4Layout);
@@ -1330,6 +1350,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B5.setBackground(new java.awt.Color(0, 102, 102));
+        B5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B5Layout = new javax.swing.GroupLayout(B5);
         B5.setLayout(B5Layout);
@@ -1343,6 +1368,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B6.setBackground(new java.awt.Color(0, 102, 102));
+        B6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B6Layout = new javax.swing.GroupLayout(B6);
         B6.setLayout(B6Layout);
@@ -1356,6 +1386,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B7.setBackground(new java.awt.Color(0, 102, 102));
+        B7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B7Layout = new javax.swing.GroupLayout(B7);
         B7.setLayout(B7Layout);
@@ -1369,6 +1404,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B8.setBackground(new java.awt.Color(0, 102, 102));
+        B8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B8Layout = new javax.swing.GroupLayout(B8);
         B8.setLayout(B8Layout);
@@ -1400,6 +1440,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B2.setBackground(new java.awt.Color(0, 102, 102));
+        B2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B2Layout = new javax.swing.GroupLayout(B2);
         B2.setLayout(B2Layout);
@@ -1413,6 +1458,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         B3.setBackground(new java.awt.Color(0, 102, 102));
+        B3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                B3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout B3Layout = new javax.swing.GroupLayout(B3);
         B3.setLayout(B3Layout);
@@ -1426,6 +1476,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C4.setBackground(new java.awt.Color(0, 102, 102));
+        C4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C4Layout = new javax.swing.GroupLayout(C4);
         C4.setLayout(C4Layout);
@@ -1439,6 +1494,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C5.setBackground(new java.awt.Color(0, 102, 102));
+        C5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C5Layout = new javax.swing.GroupLayout(C5);
         C5.setLayout(C5Layout);
@@ -1452,6 +1512,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C6.setBackground(new java.awt.Color(0, 102, 102));
+        C6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C6Layout = new javax.swing.GroupLayout(C6);
         C6.setLayout(C6Layout);
@@ -1465,6 +1530,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C7.setBackground(new java.awt.Color(0, 102, 102));
+        C7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C7Layout = new javax.swing.GroupLayout(C7);
         C7.setLayout(C7Layout);
@@ -1478,6 +1548,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C8.setBackground(new java.awt.Color(0, 102, 102));
+        C8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C8Layout = new javax.swing.GroupLayout(C8);
         C8.setLayout(C8Layout);
@@ -1491,6 +1566,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G1.setBackground(new java.awt.Color(0, 102, 102));
+        G1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G1Layout = new javax.swing.GroupLayout(G1);
         G1.setLayout(G1Layout);
@@ -1504,6 +1584,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C1.setBackground(new java.awt.Color(0, 102, 102));
+        C1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C1Layout = new javax.swing.GroupLayout(C1);
         C1.setLayout(C1Layout);
@@ -1517,6 +1602,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G2.setBackground(new java.awt.Color(0, 102, 102));
+        G2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G2Layout = new javax.swing.GroupLayout(G2);
         G2.setLayout(G2Layout);
@@ -1530,6 +1620,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C2.setBackground(new java.awt.Color(0, 102, 102));
+        C2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C2Layout = new javax.swing.GroupLayout(C2);
         C2.setLayout(C2Layout);
@@ -1543,6 +1638,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G3.setBackground(new java.awt.Color(0, 102, 102));
+        G3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G3Layout = new javax.swing.GroupLayout(G3);
         G3.setLayout(G3Layout);
@@ -1556,6 +1656,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H4.setBackground(new java.awt.Color(0, 102, 102));
+        H4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H4Layout = new javax.swing.GroupLayout(H4);
         H4.setLayout(H4Layout);
@@ -1569,6 +1674,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H5.setBackground(new java.awt.Color(0, 102, 102));
+        H5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H5Layout = new javax.swing.GroupLayout(H5);
         H5.setLayout(H5Layout);
@@ -1582,6 +1692,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H6.setBackground(new java.awt.Color(0, 102, 102));
+        H6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H6Layout = new javax.swing.GroupLayout(H6);
         H6.setLayout(H6Layout);
@@ -1595,6 +1710,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H7.setBackground(new java.awt.Color(0, 102, 102));
+        H7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H7Layout = new javax.swing.GroupLayout(H7);
         H7.setLayout(H7Layout);
@@ -1608,6 +1728,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H8.setBackground(new java.awt.Color(0, 102, 102));
+        H8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H8Layout = new javax.swing.GroupLayout(H8);
         H8.setLayout(H8Layout);
@@ -1621,6 +1746,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H1.setBackground(new java.awt.Color(0, 102, 102));
+        H1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H1Layout = new javax.swing.GroupLayout(H1);
         H1.setLayout(H1Layout);
@@ -1634,6 +1764,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H2.setBackground(new java.awt.Color(0, 102, 102));
+        H2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H2Layout = new javax.swing.GroupLayout(H2);
         H2.setLayout(H2Layout);
@@ -1647,6 +1782,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         C3.setBackground(new java.awt.Color(0, 102, 102));
+        C3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                C3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout C3Layout = new javax.swing.GroupLayout(C3);
         C3.setLayout(C3Layout);
@@ -1660,6 +1800,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D4.setBackground(new java.awt.Color(0, 102, 102));
+        D4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D4Layout = new javax.swing.GroupLayout(D4);
         D4.setLayout(D4Layout);
@@ -1673,6 +1818,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D5.setBackground(new java.awt.Color(0, 102, 102));
+        D5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D5Layout = new javax.swing.GroupLayout(D5);
         D5.setLayout(D5Layout);
@@ -1686,6 +1836,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D6.setBackground(new java.awt.Color(0, 102, 102));
+        D6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D6Layout = new javax.swing.GroupLayout(D6);
         D6.setLayout(D6Layout);
@@ -1699,6 +1854,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D7.setBackground(new java.awt.Color(0, 102, 102));
+        D7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D7Layout = new javax.swing.GroupLayout(D7);
         D7.setLayout(D7Layout);
@@ -1712,6 +1872,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D8.setBackground(new java.awt.Color(0, 102, 102));
+        D8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D8Layout = new javax.swing.GroupLayout(D8);
         D8.setLayout(D8Layout);
@@ -1725,6 +1890,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D1.setBackground(new java.awt.Color(0, 102, 102));
+        D1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D1Layout = new javax.swing.GroupLayout(D1);
         D1.setLayout(D1Layout);
@@ -1738,6 +1908,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D2.setBackground(new java.awt.Color(0, 102, 102));
+        D2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D2Layout = new javax.swing.GroupLayout(D2);
         D2.setLayout(D2Layout);
@@ -1751,6 +1926,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         H3.setBackground(new java.awt.Color(0, 102, 102));
+        H3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                H3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout H3Layout = new javax.swing.GroupLayout(H3);
         H3.setLayout(H3Layout);
@@ -1764,6 +1944,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         D3.setBackground(new java.awt.Color(0, 102, 102));
+        D3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                D3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout D3Layout = new javax.swing.GroupLayout(D3);
         D3.setLayout(D3Layout);
@@ -1779,6 +1964,11 @@ public class GUI extends javax.swing.JFrame {
         label19.setText("A       B      C      D      E      F      G      H ");
 
         E4.setBackground(new java.awt.Color(0, 102, 102));
+        E4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E4Layout = new javax.swing.GroupLayout(E4);
         E4.setLayout(E4Layout);
@@ -1810,6 +2000,11 @@ public class GUI extends javax.swing.JFrame {
         label25.setText("6");
 
         E5.setBackground(new java.awt.Color(0, 102, 102));
+        E5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E5Layout = new javax.swing.GroupLayout(E5);
         E5.setLayout(E5Layout);
@@ -1823,6 +2018,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E6.setBackground(new java.awt.Color(0, 102, 102));
+        E6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E6Layout = new javax.swing.GroupLayout(E6);
         E6.setLayout(E6Layout);
@@ -1836,6 +2036,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E7.setBackground(new java.awt.Color(0, 102, 102));
+        E7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E7Layout = new javax.swing.GroupLayout(E7);
         E7.setLayout(E7Layout);
@@ -1849,6 +2054,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E8.setBackground(new java.awt.Color(0, 102, 102));
+        E8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E8Layout = new javax.swing.GroupLayout(E8);
         E8.setLayout(E8Layout);
@@ -1862,6 +2072,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E1.setBackground(new java.awt.Color(0, 102, 102));
+        E1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E1Layout = new javax.swing.GroupLayout(E1);
         E1.setLayout(E1Layout);
@@ -1875,6 +2090,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E2.setBackground(new java.awt.Color(0, 102, 102));
+        E2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E2Layout = new javax.swing.GroupLayout(E2);
         E2.setLayout(E2Layout);
@@ -1888,6 +2108,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         E3.setBackground(new java.awt.Color(0, 102, 102));
+        E3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                E3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout E3Layout = new javax.swing.GroupLayout(E3);
         E3.setLayout(E3Layout);
@@ -1901,6 +2126,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F4.setBackground(new java.awt.Color(0, 102, 102));
+        F4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F4Layout = new javax.swing.GroupLayout(F4);
         F4.setLayout(F4Layout);
@@ -1917,6 +2147,11 @@ public class GUI extends javax.swing.JFrame {
         label26.setText("7");
 
         F5.setBackground(new java.awt.Color(0, 102, 102));
+        F5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F5Layout = new javax.swing.GroupLayout(F5);
         F5.setLayout(F5Layout);
@@ -1930,6 +2165,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F6.setBackground(new java.awt.Color(0, 102, 102));
+        F6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F6MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F6Layout = new javax.swing.GroupLayout(F6);
         F6.setLayout(F6Layout);
@@ -1946,6 +2186,11 @@ public class GUI extends javax.swing.JFrame {
         label27.setText("8");
 
         F7.setBackground(new java.awt.Color(0, 102, 102));
+        F7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F7Layout = new javax.swing.GroupLayout(F7);
         F7.setLayout(F7Layout);
@@ -1959,6 +2204,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F8.setBackground(new java.awt.Color(0, 102, 102));
+        F8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F8MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F8Layout = new javax.swing.GroupLayout(F8);
         F8.setLayout(F8Layout);
@@ -1972,6 +2222,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F1.setBackground(new java.awt.Color(0, 102, 102));
+        F1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F1MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F1Layout = new javax.swing.GroupLayout(F1);
         F1.setLayout(F1Layout);
@@ -1985,6 +2240,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F2.setBackground(new java.awt.Color(0, 102, 102));
+        F2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F2MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F2Layout = new javax.swing.GroupLayout(F2);
         F2.setLayout(F2Layout);
@@ -1998,6 +2258,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         F3.setBackground(new java.awt.Color(0, 102, 102));
+        F3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                F3MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout F3Layout = new javax.swing.GroupLayout(F3);
         F3.setLayout(F3Layout);
@@ -2011,6 +2276,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G4.setBackground(new java.awt.Color(0, 102, 102));
+        G4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G4MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G4Layout = new javax.swing.GroupLayout(G4);
         G4.setLayout(G4Layout);
@@ -2024,6 +2294,11 @@ public class GUI extends javax.swing.JFrame {
         );
 
         G5.setBackground(new java.awt.Color(0, 102, 102));
+        G5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                G5MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout G5Layout = new javax.swing.GroupLayout(G5);
         G5.setLayout(G5Layout);
@@ -2621,6 +2896,446 @@ public class GUI extends javax.swing.JFrame {
        flota.jugadorData(player,paneles,coordenadas);
        flota.setVisible(true);
     }//GEN-LAST:event_A8MouseClicked
+
+    private void B2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B2MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(1,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B2MouseClicked
+
+    private void B3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(1,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B3MouseClicked
+
+    private void B4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B4MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(1,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B4MouseClicked
+
+    private void B5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(1,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B5MouseClicked
+
+    private void B6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B6MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(1,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B6MouseClicked
+
+    private void B7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B7MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(1,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B7MouseClicked
+
+    private void B8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B8MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(1,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_B8MouseClicked
+
+    private void C1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C1MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C1MouseClicked
+
+    private void C2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C2MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C2MouseClicked
+
+    private void C3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C3MouseClicked
+
+    private void C4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C4MouseClicked
+        // TODO add your handling code here
+         Punto coordenadas;
+       coordenadas= new Punto(2,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C4MouseClicked
+
+    private void C5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C5MouseClicked
+
+    private void C6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C6MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C6MouseClicked
+
+    private void C7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C7MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C7MouseClicked
+
+    private void C8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_C8MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(2,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_C8MouseClicked
+
+    private void D1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D1MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D1MouseClicked
+
+    private void D2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D2MouseClicked
+        // TODO add your handling code here
+         Punto coordenadas;
+       coordenadas= new Punto(3,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D2MouseClicked
+
+    private void D3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D3MouseClicked
+
+    private void D4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D4MouseClicked
+        // TODO add your handling code here
+         Punto coordenadas;
+       coordenadas= new Punto(3,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D4MouseClicked
+
+    private void D5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D5MouseClicked
+
+    private void D6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D6MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D6MouseClicked
+
+    private void D7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D7MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D7MouseClicked
+
+    private void D8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_D8MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(3,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_D8MouseClicked
+
+    private void E1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E1MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(4,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E1MouseClicked
+
+    private void E2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E2MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(4,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E2MouseClicked
+
+    private void E3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E3MouseClicked
+
+    private void E4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E4MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E4MouseClicked
+
+    private void E5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E5MouseClicked
+
+    private void E6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E6MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E6MouseClicked
+
+    private void E7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E7MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E7MouseClicked
+
+    private void E8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_E8MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(4,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_E8MouseClicked
+
+    private void F1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F1MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F1MouseClicked
+
+    private void F2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F2MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F2MouseClicked
+
+    private void F3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F3MouseClicked
+
+    private void F4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F4MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F4MouseClicked
+
+    private void F5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F5MouseClicked
+
+    private void F6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F6MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F6MouseClicked
+
+    private void F7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F7MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F7MouseClicked
+
+    private void F8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_F8MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(5,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_F8MouseClicked
+
+    private void G1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G1MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(6,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G1MouseClicked
+
+    private void G2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G2MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G2MouseClicked
+
+    private void G3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G3MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G3MouseClicked
+
+    private void G4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G4MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G4MouseClicked
+
+    private void G5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G5MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G5MouseClicked
+
+    private void G6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G6MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G6MouseClicked
+
+    private void G7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G7MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G7MouseClicked
+
+    private void G8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_G8MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(6,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_G8MouseClicked
+
+    private void H1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H1MouseClicked
+        // TODO add your handling code here:
+        Punto coordenadas;
+       coordenadas= new Punto(7,0);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H1MouseClicked
+
+    private void H2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H2MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,1);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H2MouseClicked
+
+    private void H3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H3MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,2);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H3MouseClicked
+
+    private void H4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H4MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,3);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H4MouseClicked
+
+    private void H5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H5MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,4);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H5MouseClicked
+
+    private void H6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H6MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,5);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H6MouseClicked
+
+    private void H7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H7MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,6);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H7MouseClicked
+
+    private void H8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_H8MouseClicked
+        // TODO add your handling code here:
+         Punto coordenadas;
+       coordenadas= new Punto(7,7);
+       flota.jugadorData(player,paneles,coordenadas);
+       flota.setVisible(true);
+    }//GEN-LAST:event_H8MouseClicked
 
     
     /**

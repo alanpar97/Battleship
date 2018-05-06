@@ -61,8 +61,18 @@ public class FlotaGUI extends javax.swing.JFrame {
         });
 
         antiaereo.setText("Anti-aéreo (3)");
+        antiaereo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                antiaereoActionPerformed(evt);
+            }
+        });
 
         base.setText("Base aérea (4)");
+        base.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                baseActionPerformed(evt);
+            }
+        });
 
         barco.setText("Barco (1)");
         barco.addActionListener(new java.awt.event.ActionListener() {
@@ -123,6 +133,26 @@ public class FlotaGUI extends javax.swing.JFrame {
         p1.nave2.setUbicacion(coordenadas);
         orientacion.jugadorDataOrientacion(p1, flag, panelTemp);
     }//GEN-LAST:event_submarinoActionPerformed
+
+    private void antiaereoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_antiaereoActionPerformed
+        // TODO add your handling code here:
+        this.setVisible(false);
+        this.antiaereo.setEnabled(false);
+        orientacion.setVisible(true);
+        flag='A';
+        p1.nave3.setUbicacion(coordenadas);
+        orientacion.jugadorDataOrientacion(p1, flag, panelTemp);
+    }//GEN-LAST:event_antiaereoActionPerformed
+
+    private void baseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_baseActionPerformed
+        // TODO add your handling code here:
+        this.setVisible(false);
+        this.base.setEnabled(false);
+        orientacion.setVisible(true);
+        flag='B';
+        p1.nave4.setUbicacion(coordenadas);
+        orientacion.jugadorDataOrientacion(p1, flag, panelTemp);
+    }//GEN-LAST:event_baseActionPerformed
 
     public void jugadorData(Jugador p1, Panel[][] panel, Punto coordenadas)
     {

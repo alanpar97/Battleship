@@ -84,11 +84,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Anti-a&#xe9;reo (3)"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="antiaereoActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="base">
       <Properties>
         <Property name="text" type="java.lang.String" value="Base a&#xe9;rea (4)"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="baseActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="barco">
       <Properties>
