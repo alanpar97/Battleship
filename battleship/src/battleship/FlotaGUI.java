@@ -120,14 +120,8 @@ public class FlotaGUI extends javax.swing.JFrame {
         this.submarino.setEnabled(false);
         orientacion.setVisible(true);
         flag='S';
-        if (p1.nave2.orientacion=='V')
-        {
-            for (int i=0;i<2;i++){
-           // panelTemp[this.x][this.y].setBackground(Color.black);}
-            }
-        }
-        
-        
+        p1.nave2.setUbicacion(coordenadas);
+        orientacion.jugadorDataOrientacion(p1, flag, panelTemp);
     }//GEN-LAST:event_submarinoActionPerformed
 
     public void jugadorData(Jugador p1, Panel[][] panel, Punto coordenadas)

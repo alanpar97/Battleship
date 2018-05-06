@@ -5,6 +5,9 @@
  */
 package battleship;
 
+import java.awt.Color;
+import java.awt.Panel;
+
 /**
  *
  * @author Luis Oliva
@@ -13,6 +16,7 @@ public class OrientacionFrame extends javax.swing.JFrame {
 
     Jugador p1;
     Character flag;
+    Panel panelTemp[][];
     /**
      * Creates new form OrientacionFrame
      */
@@ -31,7 +35,7 @@ public class OrientacionFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         botonVertical = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        botonHorizontal = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,7 +46,12 @@ public class OrientacionFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("Horizontal");
+        botonHorizontal.setText("Horizontal");
+        botonHorizontal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonHorizontalActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -52,7 +61,7 @@ public class OrientacionFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(botonVertical, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(botonHorizontal, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -61,7 +70,7 @@ public class OrientacionFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(botonVertical, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(botonHorizontal, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 8, Short.MAX_VALUE))
         );
 
@@ -70,10 +79,20 @@ public class OrientacionFrame extends javax.swing.JFrame {
 
     private void botonVerticalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonVerticalActionPerformed
         // TODO add your handling code here:
+        
         if (flag.equals('S'))
         {
             p1.nave2.setOrientacion('V');
+            if (p1.nave2.orientacion.equals('V'))
+            {               
+                for (int i=0;i<p1.nave2.getTamaño();i++)
+                {
+                    panelTemp[p1.nave2.ubicacion.columna][p1.nave2.ubicacion.fila+i].setBackground(Color.black);
+                }
+
+            }
         }
+        
         if (flag.equals('A'))
         {
             p1.nave3.setOrientacion('V');
@@ -86,14 +105,44 @@ public class OrientacionFrame extends javax.swing.JFrame {
         this.setVisible(false);
     }//GEN-LAST:event_botonVerticalActionPerformed
 
-    public void jugadorData(Jugador p1, Character flag)
-    {
-        this.p1=p1;
-        this.flag=flag;
-    }
+    private void botonHorizontalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonHorizontalActionPerformed
+        // TODO add your handling code here:
+        
+        if (flag.equals('S'))
+        {
+            p1.nave2.setOrientacion('V');
+            if (p1.nave2.orientacion.equals('V'))
+            {
+                for (int i=p1.nave2.ubicacion.fila;i<p1.nave2.getTamaño();i++)
+                {
+                    panelTemp[p1.nave2.ubicacion.columna+i][p1.nave2.ubicacion.fila].setBackground(Color.black);
+                }
+
+            }
+        }
+        
+        if (flag.equals('A'))
+        {
+            p1.nave3.setOrientacion('V');
+        }
+        if (flag.equals('B'))
+        {
+            p1.nave4.setOrientacion('V');
+        }
+        
+        this.setVisible(false);
+    }//GEN-LAST:event_botonHorizontalActionPerformed
+
     /**
      * @param args the command line arguments
      */
+    
+     public void jugadorDataOrientacion(Jugador p1, Character flag, Panel paneles[][])
+    {
+        this.p1=p1;
+        this.flag=flag;
+        this.panelTemp=paneles;
+    }
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -127,7 +176,7 @@ public class OrientacionFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonHorizontal;
     private javax.swing.JButton botonVertical;
-    private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
 }

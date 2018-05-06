@@ -13,7 +13,7 @@ public class NaveUnitaria {
     
     private int tamaño;
     private int vidas;//mr parece que este atributo es redundante
-    private Punto ubicacion; //este atributo es para tener las coordenadas de la nave
+    public Punto ubicacion; //este atributo es para tener las coordenadas de la nave
     
     NaveUnitaria()
     {
@@ -44,7 +44,7 @@ public class NaveUnitaria {
         this.tamaño=tamaño;
     }
     
-    public int getTemaño()
+    public int getTamaño()
     {
         return this.tamaño;
     }

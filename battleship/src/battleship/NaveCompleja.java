@@ -18,7 +18,7 @@ public class NaveCompleja extends NaveUnitaria {
         
         NaveCompleja()
         {
-            this.orientacion=null;
+            this.orientacion='.';
             setTamaño(2); //estos metodos los hereda de la clase NaveUnitaria
             setVidas(2);
             setUbicacion(null);
